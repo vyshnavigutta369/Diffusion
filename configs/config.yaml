@@ -1,0 +1,34 @@
+init_image : None
+init_image_strength : 0.2
+use_centered_text_conditionals : False
+epsilon : 0.3
+use_directional_text_conditionals : False
+use_directional_text_conditionals_h_space : False
+use_p2p: False
+use_p2p_directional: False
+walk_left_right: False
+component_ind : 0
+num_steps: 1
+output_dir: "walk_videos"
+name: "test1"
+height: 512
+width: 512
+guidance_scale: 7.5
+eta: 0.0
+num_inference_steps: 40
+do_loop: False
+make_video: False
+use_lerp_for_text: True
+scheduler: "default"  # choices: default ddim klms
+disable_tqdm: False
+upsample: False
+resume: False
+fps: 15
+less_vram: False
+batch_size: 1
+frame_filename_ext: '.png'
+train_on: 'annotations_car_color.npy'
+use_image_embeddings_only: False
+use_text_embeddings_only: False
+use_image_text_embeddings: False
+

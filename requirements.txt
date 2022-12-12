@@ -1,0 +1,13 @@
+transformers==4.22.1
+scipy
+fire
+gradio
+librosa
+av
+realesrgan
+diffusers==0.3.0
+torch
+numpy
+pillow
+tqdm
+ffmpeg
